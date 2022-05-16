@@ -1,0 +1,83 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #2f343f;
+    color: #fff;
+    box-shadow: 1px 1px 1px 1px #2f343f97;
+    border-radius: 10px;
+    width: 165px;
+    height: 250px;
+}
+.name {
+    font-size: 18px;
+}
+.abilities {
+    margin: 0;
+    padding: 0;
+    color: rgb(238, 163, 44);
+}
+.type {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.bug {
+    color: #abdfa0;
+}
+.normal {
+    color: #cfaba4;
+}
+.electric {
+    color: #ebdd74;
+}
+.poison {
+    color: #c58cdc;
+}
+.ground {
+    color: #c09b5c;
+}
+.fairy {
+    color: #ea9fce;
+}
+.fire {
+    color: #e87876;
+}
+.grass {
+    color: #92b46b;
+}
+.fighting {
+    color: #e7daaa;
+}
+.water {
+    color: #aac3e7;
+}
+.rock {
+    color: #bababa;
+}
+.psychic {
+    color: #b188f4;
+}
+.ghost {
+    color: #9f8bf1;
+}
+.ice {
+    color: #8ee9fe;
+}
+.dragon {
+    color: #feb38e;
+}
+.dark {
+    color: #7c7ce2;
+}
+.steel {
+    color: #d7d7de;
+}
+@media (min-width: 1024px){
+    .card {
+        width: 200px;
+        height: 250px;
+    }
+}
+@media (min-width: 576px) and (max-width: 1023px) {
+
+}

@@ -1,0 +1,15 @@
+.footer {
+    height: max-content;
+    background-color: #820016;
+    padding: 2rem 0;
+    color: #ffffff;
+}
+.footer ul {
+    padding: 0;
+}
+.footer ul li {
+    list-style-type: none;
+}
+.footer ul li a {
+    color: #ffffff;
+}

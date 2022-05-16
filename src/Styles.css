@@ -1,0 +1,41 @@
+/* MOBILE FIRST */
+#root {
+    width: 100%;
+}
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #D1092B;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 600;
+    overflow-x: hidden;
+}
+.headerContainer {
+    display: flex;
+    justify-content: space-around;
+}
+.lights {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+.redLight {
+    background-color: #DC483A;
+}
+.yellowLight {
+    background-color: #E4BC0E;
+}
+.greenLight {
+    background-color: #1EC568;
+}
+.greenScreen {
+    width: 200px;
+    height: 60px;
+    background-color: #1fa059;
+    border: 3px solid #0d4b29;
+    border-radius: 10px;
+    margin-left: 10px;
+    display: grid;
+    place-items: center;
+}
